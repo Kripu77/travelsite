@@ -1,0 +1,76 @@
+.RegistrationForm{
+    background-color: white;
+    width: 20%;
+    height: 78vh;
+    padding: 2% 2% 6% 4%;
+    margin-left: 35%;
+    margin-top: 2%;
+   
+}
+
+.RegistrationForm:hover{
+ box-shadow: 0px 1px 10px 10px gainsboro;
+}
+
+.Heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-left: 0%;
+}
+
+input[type=text], [type=email], [type=password]{
+    width:80%;
+    height: 4vh;
+    padding: 2px 2px 2px 10px;
+    border: 1px solid blue;
+    font-family: 'Calibri Light';
+    color: gray;
+    border-radius: 8px;
+    margin-top: 1.5%;
+}
+
+select{
+    width:85%;
+    height: 4.5vh;
+    padding: 2px 2px 2px 10px;
+    border: 1px solid blue;
+    font-family: 'Calibri Light';
+    color: gray;
+    border-radius: 8px;
+    margin-top: 1.5%;
+}
+
+input[type=submit]{
+    width:50%;
+    height: 4vh;
+    padding: 2px 2px 2px 10px;
+    border: none;
+    font-family: 'Calibri Light';
+    color: white;
+    border-radius: 8px;
+    margin-top: 3%;
+    font-weight: bold;
+    background-color: blue;
+    margin-left: 17%;
+}
+
+.RegFormFieldSet{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.RegFormFieldSet > label{
+    font-family: 'Segoe UI';
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.ValidationCheckBox{
+    margin-left: 17%;
+}
+
+#MessageBox{
+    margin-left: 34.5%;
+    color: red;
+}

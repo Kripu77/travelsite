@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap/css/bootstrap.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+
+    <!-- PRIMARY NAVBAR WITH LOGO AND TABS TO PAGES -->
+    <nav class="navbar bg-info navbar-static-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand text-primary" href="#"><strong>traveldoves.com</strong></a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a class="text-primary" href="#">Home</a></li>
+            <li><a class="text-primary" href="#">About Us</a></li>
+            <li><a class="text-primary" href="#">Advanced Search</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                    <span class="nav-label text-primary">Browse</span>
+                    <span class="caret text-primary"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="text-primary" href="postlist.php">Posts</a></li>
+                    <li><a class="text-primary" href="#">Images</a></li>
+                </ul>
+            </li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+    </nav>
+
+      <!-- SECONDARY NAVIGATION FOR CITIES, COUNTRIES, AND CONTINENTS -->
+    <nav id="subnav" class="navbar-inverse navbar-static-top" role="navigation">
+        <ul class="nav navbar-nav">
+           <li><a href="#">Cities</a></li>
+           <li><a href="#">Countries</a></li>
+           <li><a href="#">Continents</a></li>
+        </ul>
+    </nav>
+
+    <!------------------ CAROUSEL START HERE --------------------->
+    <div class="container" style="margin-left: 13%;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img src="images/slides/Slide1.png" alt="Los Angeles" style="width:80%; height:80vh">
+            </div>
+      
+            <div class="item">
+              <img src="images/slides/Slide2.png" alt="Chicago" style="width:80%; height:80vh">
+            </div>
+          
+            <div class="item">
+              <img src="images/slides/Slide3.png" alt="New York" style="width:80%; height:80vh">
+            </div>
+        
+          </div>
+        </div>
+    </div>
+    <section class="col-md-12">
+      <h2 class="col-md-11 text-center" style="margin-bottom:5%">Most Recent Images</h2>
+      <div class="container col-md-3 bg-info">
+        <div class="container col-md-11 imgPadding">
+            <img src="images/travel-images/square-medium/5855174537.jpg" style="width: 100%;">
+        </div>
+        <div class="text-primary col-md-10 text-center" style="margin: 3% 2%; font-size: 1.2em;">
+            Posted By: Demo <br>
+            On Date
+        </div>
+      </div>
+      <div class="container col-md-3 bg-info">
+        <div class="container col-md-11 imgPadding">
+            <img src="images/travel-images/square-medium/5855174537.jpg" style="width: 100%;">
+        </div>
+        <div class="text-primary col-md-10 text-center" style="margin: 3% 2%; font-size: 1.2em;">
+            Posted By: Demo <br>
+            On Date
+        </div>
+      </div>
+      <div class="container col-md-3 bg-info">
+        <div class="container col-md-11 imgPadding">
+          <img src="images/travel-images/square-medium/5855174537.jpg" style="width: 100%;">
+        </div>
+        <div class="text-primary col-md-10 text-center" style="margin: 3% 2%; font-size: 1.2em;">
+          Posted By: Demo <br>
+          On Date
+        </div>
+      </div>
+    </section>
+    <footer class="col-md-12 bg-info">
+      <ul class="col-md-10">
+        <li><a class="text-primary" href="about.php">About traveldoves</a></li>
+        <li><a class="text-primary" href="imagelist.php">Popular Images</a></li>
+        <li><a class="text-primary" href="postlist.php">Popular Posts</a></li>
+        <li><a class="text-primary" href="#">Register Now</a></li>
+      </ul>
+      <p class="text-primary text-center bg-danger">Copyright traveldoves.com</p>
+    </footer>
+
+
+</body>
+</html>
